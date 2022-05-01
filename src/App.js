@@ -9,11 +9,13 @@ import Alert from "./components/Alert"
 // This is using material ui
 const useStyles = makeStyles(() => ({
   App: {
-    backgroundColor: "#14161a",
+    backgroundColor: "#650EEB",
     color: "white",
     minHeight: "100vh",
   },
 }));
+
+// #14161a initial color
 
 function App() {
   const classes = useStyles(); // importing the useStyles from above

@@ -65,7 +65,7 @@ const CoinInfo = ({ coin }) => {
       <div className={classes.container}>
         {!historicData ? (
           <CircularProgress
-            style={{ color: "gold" }}
+            style={{ color: "#5DA3FA" }}
             size={250}
             thickness={1}
           />
@@ -86,7 +86,7 @@ const CoinInfo = ({ coin }) => {
                   {
                     data: historicData.map((coin) => coin[1]),
                     label: `Price ( Past ${days} Days ) in ${currency}`,
-                    borderColor: "#EEBC1D",
+                    borderColor: "#5DA3FA",
                   },
                 ],
               }}

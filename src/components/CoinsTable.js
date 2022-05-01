@@ -34,16 +34,17 @@ export default function CoinsTable() {
 
   const useStyles = makeStyles({
     row: {
-      backgroundColor: "#16171a",
+      backgroundColor: "#5e0dd9",
       cursor: "pointer",
       "&:hover": {
-        backgroundColor: "#131111",
+        backgroundColor: "#1f0448",
       },
       fontFamily: "Montserrat",
+      border: "2px solid #5DA3FA"
     },
     pagination: { // from docs see how to style on component in Pagination of material ui
       "& .MuiPaginationItem-root": {
-        color: "gold",
+        color: "#23C4ED",
       },
     },
   });
@@ -92,10 +93,10 @@ export default function CoinsTable() {
         />
         <TableContainer component={Paper}>
           {loading ? (
-            <LinearProgress style={{ backgroundColor: "gold" }} />
+            <LinearProgress style={{ backgroundColor: "#23C4ED"}} />
           ) : (
             <Table aria-label="simple table">
-              <TableHead style={{ backgroundColor: "#EEBC1D" }}>
+              <TableHead style={{ backgroundColor: "#5DA3FA"}}>
                 <TableRow>
                   {["Coin", "Price", "24h Change", "Market Cap"].map((head) => (
                     <TableCell
@@ -103,6 +104,7 @@ export default function CoinsTable() {
                         color: "black",
                         fontWeight: "700",
                         fontFamily: "Montserrat",
+                        border: "2px solid #5DA3FA",
                       }}
                       key={head}
                       align={head === "Coin" ? "" : "right"}

@@ -27,22 +27,22 @@ const useStyles = makeStyles({
     height: "92%",
   },
   logout: {
-    height: "8%",
+    height: "7%",
     width: "100%",
-    backgroundColor: "#EEBC1D",
+    backgroundColor: "#D82E2F",
     marginTop: 20,
   },
   picture: {
     width: 200,
     height: 200,
     cursor: "pointer",
-    backgroundColor: "#EEBC1D",
+    backgroundColor: "#650EEB",
     objectFit: "contain",
   },
   watchlist: {
     flex: 1,
     width: "100%",
-    backgroundColor: "grey",
+    backgroundColor: "#5A20CB",
     borderRadius: 10,
     padding: 15,
     paddingTop: 10,
@@ -60,8 +60,8 @@ const useStyles = makeStyles({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "#EEBC1D",
-    boxShadow: "0 0 3px black",
+    backgroundColor: "#1B98F5",
+    boxShadow: "0 0 2px black",
   },
 });
 
