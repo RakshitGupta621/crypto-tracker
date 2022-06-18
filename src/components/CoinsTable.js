@@ -34,13 +34,13 @@ export default function CoinsTable() {
 
   const useStyles = makeStyles({
     row: {
-      backgroundColor: "#5e0dd9",
+      backgroundColor: "#242B2E",
       cursor: "pointer",
       "&:hover": {
         backgroundColor: "#1f0448",
       },
       fontFamily: "Montserrat",
-      border: "2px solid #5DA3FA"
+      // border: "2px solid #5DA3FA"
     },
     pagination: { // from docs see how to style on component in Pagination of material ui
       "& .MuiPaginationItem-root": {
