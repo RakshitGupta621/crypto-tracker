@@ -34,10 +34,10 @@ export default function CoinsTable() {
 
   const useStyles = makeStyles({
     row: {
-      backgroundColor: "#242B2E",
+      backgroundColor: "#16161d",
       cursor: "pointer",
       "&:hover": {
-        backgroundColor: "#1f0448",
+        backgroundColor: "#33005A",
       },
       fontFamily: "Montserrat",
       // border: "2px solid #5DA3FA"
@@ -88,7 +88,7 @@ export default function CoinsTable() {
         <TextField
           label="Search For a Crypto Currency.."
           variant="outlined"
-          style={{ marginBottom: 20, width: "100%" }}
+          style={{ marginBottom: 20, width: "100%", border: "2px solid white", borderRadius: "5px"}}
           onChange={(e) => setSearch(e.target.value)}
         />
         <TableContainer component={Paper}>
